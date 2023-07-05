@@ -62,7 +62,7 @@ Include the following script tag in your HTML file:
 
 To use NepaliDatePicker in your project, follow these steps:
 
-1. Add a text input field to your HTML file with a unique ID.
+1. Add a text input field to your HTML file with a class name datepicker-her.
 ```html
 <input class="datepicker-here" type="text" data-language="nep">
 ```
