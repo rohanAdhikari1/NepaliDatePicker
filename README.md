@@ -4,7 +4,7 @@ Welcome to the official documentation for NepaliDatePicker JavaScript Plugin v0.
 
 #### checkout  [demo](https://demo.rohan.info.np/NepaliDatepicker/).
 
-### For detailed information about this plugin, refer to [Complete documentation]() of NepaliDatePicker.
+### For detailed information about this plugin, refer to [Complete documentation](https://docs.rohan.info.np/NepaliDatepicker/) of NepaliDatePicker.
 
 ## Table of Contents
 
@@ -85,7 +85,7 @@ NepaliDatePicker v0.0.1 offers a wide range of features to enhance your date sel
 - Lightweight and efficient
 - Cross-browser compatibility
 
-For detailed information on each feature, refer to the [complete documentaion](#features) of plugin.
+For detailed information on each feature, refer to the [complete documentaion](https://docs.rohan.info.np/NepaliDatepicker/index.html#features) of plugin.
 
 ## NepaliFunctions
 
@@ -96,7 +96,7 @@ NepaliDatePicker provides a set of NepaliFunctions that allow you to perform var
 - Getting the day of the Month.
 - And much more!
 
-For a complete list of available NepaliFunctions, refer to the [complete documentaion](#features).
+For a complete list of available NepaliFunctions, refer to the [complete documentaion](https://docs.rohan.info.np/NepaliDatepicker/index.html#NepaliFunctions).
 
 ## Customization
 
@@ -107,7 +107,7 @@ NepaliDatePicker offers various customization options to tailor the appearance a
 - Specifying the date format
 - And more!
 
-Refer to the [complete documentaion](#features) for detailed instructions on how to customize the datepicker.
+Refer to the [complete documentaion](https://docs.rohan.info.np/NepaliDatepicker/index.html#Customization) for detailed instructions on how to customize the datepicker.
 
 ## Callbacks and Event Handling
 
@@ -118,7 +118,7 @@ NepaliDatePicker allows you to execute custom code when specific events occur. T
 - Date range selection
 - And more!
 
-Refer to the [complete documentaion](#features) for examples and instructions on how to utilize callbacks and handle events.
+Refer to the [complete documentaion](https://docs.rohan.info.np/NepaliDatepicker/index.html#Events) for examples and instructions on how to utilize callbacks and handle events.
 
 ## Compatibility
 
