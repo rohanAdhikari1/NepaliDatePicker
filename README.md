@@ -2,6 +2,8 @@
 
 Welcome to the official documentation for NepaliDatePicker JavaScript Plugin v0.0.1. This comprehensive guide will help you understand and utilize the features of this powerful plugin, designed specifically for date selection in the Nepali language and culture.
 
+#### [checkout demo](https://demo.rohan.info.np/NepaliDatepicker/)
+
 ### For detailed information about this plugin, refer to [Complete documentation]() of NepaliDatePicker.
 
 ## Table of Contents
