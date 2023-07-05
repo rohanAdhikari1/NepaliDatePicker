@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="Nepali-datepicker.min.css" rel="stylesheet">
+    <title>Nepali Date Picker || Example</title>
+</head>
+<body>
+                    <div class="card mb_30">
+                        <div class="card-header">
+                            <div class="box_header m-0">
+                                <div class="card-title">
+                                    <h3 class="m-0 ">DatePicker</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="date-picker justify-content-center">
+                                <form class="form">
+                                    <div class="row mb-3">
+                                        <label
+                                            class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Default</label>
+                                        <div class="col-xl-5 col-sm-9">
+                                            <div class="form-group">
+                                                <input class="datepicker-here form-control" type="text" data-language="nep">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Selecting
+                                            multiple dates</label>
+                                        <div class="col-xl-5 col-sm-9r">
+                                            <input class="datepicker-here  form-control" type="text" data-multiple-dates="3"
+                                                data-multiple-dates-separator=", " data-language="nep">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Month
+                                            selection</label>
+                                        <div class="col-xl-5 col-sm-9">
+                                            <input class="datepicker-here  form-control" type="text" data-language="nep"
+                                                data-min-view="months" data-view="months" data-date-format="MM yyyy">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Minimum
+                                            and maximum dates</label>
+                                        <div class="col-xl-5 col-sm-9 common_date_picker">
+                                            <input class="form-control" id="minMaxExample" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Range of
+                                            dates</label>
+                                        <div class="col-xl-5 col-sm-9 common_date_picker">
+                                            <input class="datepicker-here  form-control" type="text" data-range="true"
+                                                data-multiple-dates-separator=" - " data-language="nep">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Disable
+                                            days of week</label>
+                                        <div class="col-xl-5 col-sm-9 common_date_picker">
+                                            <input class="form-control" id="disabled-days" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label
+                                            class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Orientation</label>
+                                        <div class="col-xl-5 col-sm-9">
+                                            <div class="row">
+                                                <div class="col-md-12 mb-2 common_date_picker">
+                                                    <input class="datepicker-here  form-control" type="text" data-language="nep"
+                                                        data-multiple-dates-separator=", " data-position="top left"
+                                                        placeholder="top left">
+                                                </div>
+                                                <div class="col-md-12 mb-2 common_date_picker ">
+                                                    <input class="datepicker-here  form-control" type="text" data-language="nep"
+                                                        data-multiple-dates-separator=", " data-position="top right"
+                                                        placeholder="top right">
+                                                </div>
+                                                <div class="col-md-12 mb-2 common_date_picker ">
+                                                    <input class="datepicker-here  form-control" type="text" data-language="nep"
+                                                        data-multiple-dates-separator=", " data-position="bottom left"
+                                                        placeholder="bottom left">
+                                                </div>
+                                                <div class="col-md-12 common_date_picker ">
+                                                    <input class="datepicker-here   form-control" type="text" data-language="nep"
+                                                        data-multiple-dates-separator=", " data-position="bottom right"
+                                                        placeholder="bottom right">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-0">
+                                        <label
+                                            class="form-label col-sm-3 col-form-label text-end f_w_500 f_s_15">Permanently
+                                            visible Datepicker</label>
+                                        <div class="col-sm-3">
+                                            <div class="datepicker-here" data-language="nep"> </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        <script src="Nepali-datepicker.min.js"></script>
+        <script>
+            "use strict";
+                (function ($) {
+                    "use strict";
+                    $("#minMaxExample").datepicker({ language: "en", minDate: NepaliFunctions.GetCurrentBsDate() });
+                    var disabledDays = [5,6,7,8];
+                    $("#disabled-days").datepicker({
+                        language: "en",
+                        onRenderCell: function (date, cellType) {
+                            if (cellType == "day") {
+                                var day = date.day,
+                                    isDisabled = disabledDays.indexOf(day) != -1;
+                                return { disabled: isDisabled };
+                            }
+                        },
+                    });
+                })(jQuery);
+        </script>
+</body>
+</html>
