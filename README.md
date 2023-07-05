@@ -135,6 +135,7 @@ For optimal performance, ensure that you are using the latest version of these b
 ## Contributing
 
 Contributions to NepaliDatePicker are welcome! If you encounter any issues or have suggestions for improvement, please open an issue in the [GitHub repository](https://github.com/rohanAdhikari1/NepaliDatePicker) or submit a pull request.
+And thanks to sajan maharjan.
 
 For Contributions to NepaliDatePicker you can contact us.
 Conatct info: official@rohanadhikari.com.np
